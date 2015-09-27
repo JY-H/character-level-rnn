@@ -9,6 +9,7 @@ and written in Torch. I have rewritten the model in
 ## Training
 - Currently the model trains on 2-layered LSTM with 512 hidden nodes, with a batch size of 100 and 20 character length. 
 - After 60 iterations, the model has learned basic English phrases and puncutation, but not Shakespearean prose. I have changed the model to be 3-layered, 512 hidden nodes, batch size of 100 and 60 character length. 
+
 <!--
 ## Training
 So far I have only trained the model on the Shakespeare file in the
